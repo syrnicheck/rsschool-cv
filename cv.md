@@ -32,7 +32,7 @@ function sum (numbers) {
     return sum;
 };
 ```
-**EXPRRIENCE**
+**EXPERIENCE**
 ------------------------
 
 **EDUCATION**
