@@ -33,6 +33,7 @@ function sum (numbers) {
 };
 ```
 **EXPRRIENCE**
+------------------------
 
 **EDUCATION**
 ------------------------
