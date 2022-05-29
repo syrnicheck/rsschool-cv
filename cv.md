@@ -1,7 +1,6 @@
 # Katsyarina Hrytskevich
 ## Web developer
 
-========================
 
 **Contacts**
 ------------------------
