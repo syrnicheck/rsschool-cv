@@ -1,4 +1,4 @@
-# Katsyarina Hrytskevich
+# Katsyaryna Hrytskevich
 
 ## Web developer
 
@@ -11,11 +11,11 @@
 
 ## **SUMMARY**
 
-I’m front-end developer. I don’t have experience, but I’m improving my skills in web development.
+I am a motivated individual seeking a position where I can apply my skills and knowledge. My priorities include continuous learning and staying updated with new technologies. Although I may not have extensive work experience, I am eager to learn and expand my skill set.
 
 ## **SKILLS**
 
-- HTML, CSS, JavaScript
+- HTML, CSS, JavaScript, TypeScript
 - React
 - Git, GitHub
 
@@ -34,10 +34,15 @@ function sum (numbers) {
 
 ## **EXPERIENCE**
 
+I have worked on various educational projects where I gained practical experience and applied the skills mentioned above. Some of the projects I have worked on include:
+
+- clone of some website pages https://www.pexels.com/. (React, TypeScript, Redux)
+- online store (React, JavaScript, Redux)
+
 ## **EDUCATION**
 
 Belarusian National Technical University: information systems and technologies (in the processing and presentation of information) (2019-2023)
 
 ## **ENGLISH LEVEL**
 
-A2+ (I plan to improve my knowledge of English)
+B1 I have also actively practiced my English language skills through reading English books, articles, blogs and watching movies and series in English.
