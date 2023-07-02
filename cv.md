@@ -7,7 +7,7 @@
 - Location: Minsk, Belarus
 - Phone: +375 29 796-98-30
 - Email: katerinachka57@gmail.com
-- GitHub: syrnicheck
+- GitHub: [syrnicheck](https://github.com/syrnicheck)
 
 ## **SUMMARY**
 
