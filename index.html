@@ -2,61 +2,93 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism-okaidia.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>CV</title>
 </head>
 <body>
-    <section class="general-information">
-        <img class="avatar" src="img/avatar.jpg" width="150" height="150" alt="avatar">
-        <h1 class="FIO">Katsyaryna Hrytskevich</h1>
-        <h2 class="profession">Web developer</h2>
-        <h3 class="contacts"><strong>Contacts</strong></h3>
-        <ul>
-            <li>Location: Minsk, Belarus</li>
-            <li>Phone: +375 29 796-98-30</li>
-            <li>Email: katerinachka57@gmail.com</li>
-            <li>GitHub: <a href="https://github.com/syrnicheck">syrnicheck</a></li>
-        </ul>
-    </section>
-    <section class="feature">
-        <h3 class="feature-title">SUMMARY</h3>
-        <p class="feature-text">I am a motivated individual seeking a position where I can apply my skills and knowledge. My priorities include continuous learning and staying updated with new technologies. Although I may not have extensive work experience, I am eager to learn and expand my skill set.</p>
-    </section>
-    <section class="feature">
-        <h3 class="feature-title">SKILLS</h3>
-        <ul class="feature-text">
-            <li>HTML, CSS, JavaScript</li>
-            <li>React</li>
-            <li>Git, GitHub</li>
-        </ul>
-    </section>
-    <section class="feature">
-        <h3 class="feature-title">CODE EXAMPLE</h3>
-        <pre class="feature-text"><code>// Sum Numbers
-        function sum (numbers) {
-            &quot;use strict&quot;;
-            let sum=0;
-            numbers.forEach(function(item,i,err){
-            sum+=item;
-            });
-            return sum;
-        };</code></pre>
-    </section>
-    <section class="feature">
-        <h3 iclass="feature-title">EXPERIENCE</h3>
-        <p class="feature-text">I have worked on various educational projects where I gained practical experience and applied the skills mentioned above. Some of the projects I have worked on include:</p>
-        <ul class="feature-text">
-            <li>clone of some website pages https://www.pexels.com/. (React, TypeScript, Redux)</li>
-            <li>online store (React, JavaScript, Redux)</li>
-        </ul>
-    </section>
-    <section class="feature">
-        <h3 class="feature-title">EDUCATION</h3>
-        <p class="feature-text">Belarusian National Technical University: information systems and technologies (in the processing and presentation of information) (2019-2023)</p>
-    </section>
-    <section class="feature">
-        <h3 class="feature-title">ENGLISH LEVEL</h3>
-        <p class="feature-text">B1 I have also actively practiced my English language skills through reading English books, articles, blogs and watching movies and series in English.</p>
-    </section>
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav-list">
+              <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+              <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+              <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+              <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+              <li class="nav-item"><a href="#experince" class="nav-link">Experience</a></li>
+              <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+              <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <section class="general-information">
+                <div class="avatar-container">
+                    <img class="avatar" src="images/avatar.jpg" width="200" height="200" alt="avatar">
+                </div>
+                <div class="info-container">
+                    <h1 class="FIO">Katsyaryna Hrytskevich</h1>
+                    <h2 class="profession">Junior front-end developer</h2>
+                    <h3 class="contacts"><strong>Contacts</strong></h3>
+                    <ul class="contacts">
+                        <li>Location: Minsk, Belarus</li>
+                        <li> Phone: +375 29 796-98-30</li>
+                        <li>Email: katerinachka57@gmail.com</li>
+                        <li>
+                            <a href="https://github.com/syrnicheck" class="link" target="_blank">GitHub: syrnicheck</a>
+                        </li>
+                    </ul>
+                </div>
+              </section>
+            <section class="feature">
+                <h3 class="feature-title" id="summary">SUMMARY</h3>
+                <p class="feature-text">I am a motivated individual seeking a position where I can apply my skills and knowledge. My priorities include continuous learning and staying updated with new technologies. Although I may not have extensive work experience, I am eager to learn and expand my skill set.</p>
+            </section>
+            <section class="feature">
+                <h3 class="feature-title" id="skills">SKILLS</h3>
+                <ul class="feature-text">
+                    <li>HTML, CSS, JavaScript</li>
+                    <li>React</li>
+                    <li>Git, GitHub</li>
+                </ul>
+            </section>
+            <section class="feature">
+                <h3 class="feature-title" id="code">CODE EXAMPLE</h3>
+<pre class="language-javascript"><code>function sum (numbers) {
+    &quot;use strict&quot;;
+    let sum=0;
+    numbers.forEach(function(item,i,err){
+    sum+=item;
+    });
+    return sum;
+};</code></pre>
+            </section>
+            <section class="feature">
+                <h3 class="feature-title" id="experince">EXPERIENCE</h3>
+                <p class="feature-text">I have worked on various educational projects where I gained practical experience and applied the skills mentioned above. Some of the projects I have worked on include:</p>
+                <ul class="feature-text">
+                    <li><a href="https://github.com/syrnicheck/practice" class="link" target="_blank">clone of some website pages https://www.pexels.com/. (React, TypeScript, Redux)</a></li>
+                    <li><a href="https://github.com/syrnicheck/practice" class="link" target="_blank">online store (React, JavaScript, Redux)</a></li>
+                </ul>
+            </section>
+            <section class="feature">
+                <h3 class="feature-title" id="education">EDUCATION</h3>
+                <p class="feature-text">Belarusian National Technical University: information systems and technologies (in the processing and presentation of information) (2019-2023)</p>
+            </section>
+            <section class="feature">
+                <h3 class="feature-title" id="english">ENGLISH LEVEL</h3>
+                <p class="feature-text">B1 I have also actively practice my English language skills through reading English books, articles, blogs and watching movies and series in English.</p>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container footer-container">
+            <div>© 2023   <a href="https://github.com/syrnicheck" class="github nav-link">syrnicheck</a></div>
+            <div><a class="rss-icon" href="https://rs.school/js/">
+                <img src="images/rssicon.svg" width="86" height="32" alt="RS School">
+            </a></div>
+        </div>
+    </footer>    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js"></script>
 </body>
 </html>
