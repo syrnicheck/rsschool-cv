@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>CV</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav-list">
+              <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+              <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+              <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+              <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+              <li class="nav-item"><a href="#experince" class="nav-link">Experience</a></li>
+              <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+              <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <section class="general-information">
+                <div class="avatar-container">
+                    <img class="avatar" src="images/avatar.jpg" width="200" height="200" alt="avatar">
+                </div>
+                <div class="info-container">
+                    <h1 class="FIO">Katsyaryna Hrytskevich</h1>
+                    <h2 class="profession">Junior front-end developer</h2>
+                    <h2 class="contacts"><strong>Contacts</strong></h2>
+                    <ul class="contacts">
+                        <li>Location: Minsk, Belarus</li>
+                        <li> Phone: +375 29 796-98-30</li>
+                        <li>Email: katerinachka57@gmail.com</li>
+                        <li>
+                            <a href="https://github.com/syrnicheck" class="link" target="_blank">GitHub: syrnicheck</a>
+                        </li>
+                    </ul>
+                </div>
+              </section>
+            <section class="feature">
+                <h2 class="feature-title" id="summary">SUMMARY</h2>
+                <p class="feature-text">I am a motivated individual seeking a position where I can apply my skills and knowledge. My priorities include continuous learning and staying updated with new technologies.</p>
+            </section>
+            <section class="feature">
+                <h2 class="feature-title" id="skills">SKILLS</h2>
+                <ul class="feature-text">
+                    <li>HTML, CSS, JavaScript</li>
+                    <li>React</li>
+                    <li>Git, GitHub</li>
+                </ul>
+            </section>
+            <section class="feature">
+                <h2 class="feature-title" id="code">CODE EXAMPLE</h2>
+<pre class="language-javascript"><code>function sum (numbers) {
+    &quot;use strict&quot;;
+    let sum=0;
+    numbers.forEach(function(item,i,err){
+    sum+=item;
+    });
+    return sum;
+};</code></pre>
+            </section>
+            <section class="feature">
+                <h2 class="feature-title" id="experince">EXPERIENCE</h2>
+                <p class="feature-text">I have worked on various educational projects where I gained practical experience and applied the skills mentioned above. Some of the projects I have worked on include:</p>
+                <ul class="feature-text">
+                    <li><a href="https://github.com/syrnicheck/practice" class="link" target="_blank">clone of some website pages https://www.pexels.com/. (React, TypeScript, Redux)</a></li>
+                    <li><a href="https://github.com/syrnicheck/practice" class="link" target="_blank">online store (React, JavaScript, Redux)</a></li>
+                </ul>
+            </section>
+            <section class="feature">
+                <h2 class="feature-title" id="education">EDUCATION</h2>
+                <p class="feature-text">Belarusian National Technical University: information systems and technologies (in the processing and presentation of information)</p>
+            </section>
+            <section class="feature">
+                <h2 class="feature-title" id="english">ENGLISH LEVEL</h2>
+                <p class="feature-text">A2+ I have also actively practice my English language skills through reading English books, articles, blogs and watching movies and series in English.</p>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container footer-container">
+            <div>© 2024   <a href="https://github.com/syrnicheck" class="github nav-link">syrnicheck</a></div>
+        </div>
+    </footer>    
+</body>
+</html>
