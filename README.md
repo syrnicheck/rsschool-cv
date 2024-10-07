@@ -1,1 +1,1 @@
-https://syrnicheck.github.io/rsschool-cv/cv
+https://syrnicheck.github.io/rsschool-cv/
