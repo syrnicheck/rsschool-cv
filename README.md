@@ -1,1 +1,1 @@
-# rsschool-cv
+https://syrnicheck.github.io/rsschool-cv/
