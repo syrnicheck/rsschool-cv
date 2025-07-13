@@ -1,48 +1,168 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+* {
+  box-sizing: border-box;
+}
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+body,
+h1,
+h2,
+h3,
+ul,
+li,
+p,
+code,
+pre {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
+
 body {
-	line-height: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #f2f2f2;
+  color: #393939;
+  line-height: 1.4;
 }
-ol, ul {
-	list-style: none;
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
 }
-blockquote, q {
-	quotes: none;
+
+html {
+  scroll-behavior: smooth;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+/* Header styles */
+.header {
+  background-color: #393939;
+  color: #ffffff;
+  padding: 20px;
 }
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+.nav-link {
+  color: #ffffff;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.nav-link:hover {
+  color: #7d7979;
+}
+
+/* Main content styles */
+.general-information {
+  max-width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.info-container {
+  margin-right: 50px;
+}
+
+.FIO {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.profession {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.contacts {
+  margin-top: 20px;
+  font-weight: bold;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.link {
+  text-decoration: none;
+  color: #393939;
+}
+
+.contacts .link svg {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.feature {
+  margin-top: 40px;
+}
+
+.feature-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.feature-text {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.feature ul {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+
+.feature ul li {
+  margin-bottom: 5px;
+  list-style-type: disc;
+}
+
+.language-javascript {
+  background-color: #393939;
+}
+
+/* Footer styles */
+.footer {
+  background-color: #393939;
+  color: #ffffff;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.github {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.rss-icon {
+  width: 30px;
+  height: 30px;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
 }
