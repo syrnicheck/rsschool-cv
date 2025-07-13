@@ -1,1 +1,2 @@
-# rsschool-cv
+- [Markdown CV](https://syrnicheck.github.io/rsschool-cv/cv)
+- [HTML&CSS CV](https://syrnicheck.github.io/rsschool-cv/)
